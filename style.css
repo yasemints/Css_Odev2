@@ -1,19 +1,150 @@
-body{
 
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
-*{
+* {
 
     padding: 0;
     margin: 0;
 }
 
 
+
+
+body{
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.container{
+text-align: center;
+display: block;
+}
+
+
+
 .search{
 
-
-    background-color: red;
+    background-color:#EEEEEE;
+    width: 90%;
+    margin: auto;
+    display: block;
     
 }
+
+
+#search-in{
+
+
+    cursor: text;
+    width: 300px;
+    height: 22px;
+      
+}
+
+.search-bt{
+
+padding: 1px 6px;
+border-radius: 2px;
+box-shadow: none;
+text-decoration: none;
+border-style: outset;
+margin-bottom: 1px;
+border:1px solid gray;
+
+}
+
+.text{
+    font-size: medium;
+    font-style: normal;
+}
+
+
+.card {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space:no-wrap;
+   
+    
+}
+
+
+.card card-1{
+
+   background-color: #7ee5da;
+   margin: 1px;
+   width: 35%;
+   height: 76.4px;
+   font-size: 16px;
+   display: flex;
+   flex-direction: column;
+ 
+
+  
+}
+
+.card card-2{
+
+    background-color: #70ccc2;
+    width: 20%;
+    height: 76.4px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+   
+ }
+
+ 
+ .card card-3{
+
+    background-color: #62b3aa;
+    margin: 1px;
+    width: 35%;
+    height: 76.4px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ footer{
+
+    text-align: center;
+    font-size: 12px;
+    margin-top: 16px;
+ }
+
+
+ .card p{
+
+padding-top:3px;
+padding-bottom: 2px;
+
+ }
+
+card-3 input{
+
+    width: 170px;
+    padding: 1px 2px;
+    border-radius: none;
+    height: 22px;
+    margin-top: 2px;
+
+}
+
+card-3 button{
+
+width: 75px;
+height: 22px;
+border-radius: none;
+margin-top: 2px;
+}
+
+card-3 p{
+
+    display: inline;
+    margin-top: 2px;
+}
+
