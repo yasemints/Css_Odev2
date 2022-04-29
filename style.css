@@ -20,6 +20,7 @@ body{
 text-align: center;
 display: block;
 box-sizing: content-box;
+margin: 8px;
 
 }
 
@@ -39,8 +40,8 @@ box-sizing: content-box;
 
 
     cursor: text;
-    width: 300px;
-    height: 22px;
+    height: 21px;
+
       
 }
 
@@ -68,6 +69,7 @@ border:1px solid gray;
     justify-content: center;
     align-items: center;
     white-space:no-wrap;
+
    
     
 }
@@ -76,7 +78,6 @@ border:1px solid gray;
 .card card-1{
 
    background-color: #7ee5da;
-   margin: 1px;
    width: 35%;
    height: 76.4px;
    font-size: 16px;
@@ -97,6 +98,7 @@ border:1px solid gray;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+
    
  }
 
@@ -104,13 +106,13 @@ border:1px solid gray;
  .card card-3{
 
     background-color: #62b3aa;
-    margin: 1px;
     width: 35%;
     height: 76.4px;
     font-size: 12px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+  
 
  }
 
