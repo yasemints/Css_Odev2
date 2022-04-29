@@ -19,6 +19,8 @@ body{
 .container{
 text-align: center;
 display: block;
+box-sizing: content-box;
+
 }
 
 
@@ -80,6 +82,7 @@ border:1px solid gray;
    font-size: 16px;
    display: flex;
    flex-direction: column;
+   flex-wrap: nowrap;
  
 
   
@@ -93,6 +96,7 @@ border:1px solid gray;
     font-size: 12px;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
    
  }
 
@@ -106,6 +110,7 @@ border:1px solid gray;
     font-size: 12px;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
 
  }
 
@@ -121,16 +126,19 @@ border:1px solid gray;
 
 padding-top:3px;
 padding-bottom: 2px;
+flex-wrap: nowrap;
 
  }
 
-card-3 input{
+card-3 input[type=text]{
 
     width: 170px;
     padding: 1px 2px;
-    border-radius: none;
     height: 22px;
     margin-top: 2px;
+    text-decoration: none;
+    border-radius: 0%;
+    border: 1px solid gray;
 
 }
 
@@ -140,6 +148,7 @@ width: 75px;
 height: 22px;
 border-radius: none;
 margin-top: 2px;
+
 }
 
 card-3 p{
